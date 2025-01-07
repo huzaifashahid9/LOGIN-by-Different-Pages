@@ -1,0 +1,39 @@
+.poppins-medium {
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html{
+    font-family:"Poppins" ;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+i{
+    font-size: 4rem;
+}
+body{
+    background-color: burlywood;
+    color: brown;
+}
+
+
+.btn{
+        padding: 10px;
+        background-color: rgb(204, 216, 33);
+        border-radius: 10px;
+}

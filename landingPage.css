@@ -1,0 +1,82 @@
+.poppins-medium {
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html{
+    font-family:"Poppins" ;
+}
+i{
+    font-size: 4rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+#title{
+    width: 30%;
+    height: 30px;
+}
+textarea{
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+
+
+.form{
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+body{
+    background-color: burlywood;
+    color: brown;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog{
+    border: 1px solid black;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+.parent{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px;
+    background-color: rgb(62, 219, 230);
+    border-radius: 10px;
+}
