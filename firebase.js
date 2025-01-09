@@ -2,7 +2,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
 
-import { setDoc, getFirestore,updateDoc, addDoc,  collection, doc, getDoc, getDocs} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
+import { setDoc, getFirestore,updateDoc, addDoc,deleteDoc , collection, doc, getDoc, getDocs} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -38,5 +38,6 @@ export{
   onAuthStateChanged,
   collection, addDoc,
   getDocs,
-  updateDoc
+  updateDoc,
+  deleteDoc
 }

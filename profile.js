@@ -7,20 +7,22 @@ const getProf = async () =>{
         const data  = await getDoc(doc(db,"myUsers",id))
         console.log(data.data());
 
-        form.innerHTML = `<fieldset>
-                <h2>Name : ${data.data().Name} </h2>
+        form.innerHTML = `<div>
+                <h1 class = "under">Name :</h1>
+                <h2>${data.data().Name} </h2>
                 <button class = "btn" onclick = "editingName()">Edit</button>
-
-                <h2>Father Name : ${data.data().fName} </h2>
+                <h1 class ="under">Father Name :</h1>
+                <h2>${data.data().fName} </h2>
                 <button class = "btn" onclick = "editingFname()">Edit</button>
-
-                <h2>Email : ${data.data().email} </h2><br> 
-                <h2>Age : ${data.data().age} </h2>
+                <h1 class ="under">Email :</h1>
+                <h2>${data.data().email} </h2><br> 
+                <h1 class ="under">Age :</h1>
+                <h2>${data.data().age} </h2>
                 <button class = "btn" onclick = "editingAge()">Edit</button>
-
-                <h2>Date : ${data.data().date} </h2>
+                <h1 class ="under">Date :</h1>
+                <h2>${data.data().date} </h2>
                 <button class = "btn" onclick = "editingDate()">Edit</button>
-            </fieldset>`
+            </div>`
     } catch (error) {
         console.log(error.message);
        

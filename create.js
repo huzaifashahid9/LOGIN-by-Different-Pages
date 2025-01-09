@@ -33,6 +33,11 @@ const creating = async () =>{
             return
         }
 
+        if (!Fname.value || !date.value) {
+            alert("Please Enter Fname or Date")
+            return
+        }
+
         const response = await createUserWithEmailAndPassword(auth,email.value,pass.value)
         console.log(response);
         const id  = response.user.uid
