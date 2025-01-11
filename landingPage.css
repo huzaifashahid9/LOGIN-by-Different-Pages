@@ -197,6 +197,17 @@ textarea {
     background-color: #daa127;
 }
 
+.public{
+    text-align: start;
+    font-weight: 600;
+}
+
+.bd-top{
+    border-bottom: 1px solid burlywood;
+
+}
+
+
 .loading {
     text-align: center;
     font-size: 20px;

@@ -1,0 +1,35 @@
+html {
+    font-family: "Poppins";
+}
+i {
+    font-size: 3rem;
+    color: #2ebd9d;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  i:hover {
+    transform: scale(1.2);
+  }
+
+body {
+    background-color: #dbce8b; /* Light beige background for softer look */
+    color: #6b4226; /* Warm brown for text */
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
